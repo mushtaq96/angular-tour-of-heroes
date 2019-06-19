@@ -26,13 +26,20 @@
     color: yellow;
 }
 
+.heroes li:hover{
+    color: #607db6;
+    background-color: #ddd;
+    left: 0.1em;
+}
+
 .heroes .text{
     position: relative;
-    top:-3px;
+    top:-30px;
 }
 
 .heroes .badge{
     display: inline-block;
+    float: left;
     font-size: small;
     color:white;
     padding: 0.8em 0.7em  0 0.7em;
@@ -42,6 +49,8 @@
     left: -1px;
     top:-4px;
     height: 1.8em;
+    min-width: 15px;
+    text-align: right;
     margin-right: .8m;
     border-radius: 4px 0 0 4px;
 }
